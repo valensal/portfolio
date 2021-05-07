@@ -1,0 +1,62 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: url("../images/architecture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 48px;
+
+}
+nav{
+    margin-left:30vw;
+    margin-right: 33px;
+
+}
+
+nav a{
+    margin-right: 40px;
+    font-size: 16px;
+    text-decoration: none
+}   
+
+nav a:last-child{
+    margin-right: 0;
+} 
+
+nav a:hover{
+    color: rgb(2, 81, 128)
+}
+    
+h1{
+    width: 86px;
+    align-self: center;
+    font-size: 36px;
+}   
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 80vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+button{
+    width: 200px;
+    height: 50px;   
+    border-radius: 0px;
+    border: 2px solid #000000;
+    font-family: 'Oswald', sans-serif;
+} 
+
+button:hover{
+    background-color:rgb(2, 81, 128);
+}
+
+
